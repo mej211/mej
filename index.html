@@ -29,8 +29,6 @@ input,select{font-family:inherit;color:inherit}
 ::selection{background:var(--blue);color:#fff}
 input[type=number]{-moz-appearance:textfield}
 input::-webkit-outer-spin-button,input::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
-
-/* شعار المدرسة داخل ميدالية دائرية */
 .medal{border-radius:50%;background:#FFFEF8;border:1px solid var(--ink30);display:grid;place-items:center;overflow:hidden;flex:none}
 .medal img{width:84%;height:84%;object-fit:contain;display:block}
 .medal.noimg{display:none!important}
@@ -39,8 +37,6 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button{-webkit-appear
 .m-slip{width:42px;aspect-ratio:1}
 .m-conf{width:92px;aspect-ratio:1;margin:0 auto 16px}
 .m-gate{width:64px;aspect-ratio:1;margin:0 auto 14px}
-
-/* الهيدر */
 .topbar{position:sticky;top:0;z-index:100;background:var(--paper);border-bottom:1px solid var(--ink)}
 .topbar-in{display:flex;align-items:center;gap:16px;min-height:70px;flex-wrap:wrap;padding-block:10px}
 .brand{display:flex;align-items:center;gap:13px;text-decoration:none;color:inherit}
@@ -57,8 +53,6 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button{-webkit-appear
 .admin-link{display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-family:var(--caps);font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ink);border:1px solid var(--ink);padding:9px 14px;transition:.15s}
 .admin-link:hover{background:var(--ink);color:var(--paper)}
 .admin-link svg{width:12px;height:12px;flex:none}
-
-/* الهيرو */
 .hero{padding:clamp(48px,7vw,90px) 0 clamp(16px,2vw,28px)}
 .hero-in{max-width:780px;margin:0 auto;text-align:center}
 .eyebrow{margin-top:24px;font-family:var(--caps);font-size:12px;font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:var(--blue)}
@@ -68,8 +62,6 @@ h1.display{font-family:var(--disp);font-weight:600;font-size:clamp(42px,6.6vw,76
 .orn{display:flex;align-items:center;justify-content:center;gap:14px;margin-top:34px}
 .orn .l{height:1px;width:min(120px,16vw);background:var(--ink30)}
 .orn .d{width:8px;height:8px;background:var(--blue);transform:rotate(45deg)}
-
-/* استمارة الطلب */
 .order-grid{display:grid;grid-template-columns:minmax(0,1fr) 350px;gap:44px;align-items:start;padding-bottom:80px}
 .sheet{position:relative;background:var(--sheet);border:1px solid var(--ink)}
 .sheet::before{content:"";position:absolute;inset:5px;border:1px solid var(--ink30);pointer-events:none}
@@ -88,7 +80,6 @@ h1.display{font-family:var(--disp);font-weight:600;font-size:clamp(42px,6.6vw,76
 .field.err .fe{display:block}
 .field .hint{font-size:12.5px;color:var(--ink40);margin-top:6px}
 input[type=tel]{direction:ltr;text-align:start}
-/* صفوف الأصناف */
 .items-head,.prod{display:grid;grid-template-columns:54px minmax(0,1fr) 118px auto;gap:16px;align-items:center;padding:13px 24px 13px 21px;border-inline-start:3px solid transparent}
 .items-head{font-family:var(--caps);font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--ink55);padding-block:11px}
 .items-head .th-ctrl{text-align:end}
@@ -113,8 +104,6 @@ input[type=tel]{direction:ltr;text-align:start}
 .step .q{min-width:46px;text-align:center;font-weight:600;align-self:center}
 .size-sel{appearance:none;-webkit-appearance:none;border:1px solid var(--ink);background:var(--slip) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 9' width='14' height='9'%3E%3Cpath d='M1 1 L7 7 L13 1' fill='none' stroke='%23211F1A' stroke-width='1.6'/%3E%3C/svg%3E") no-repeat right 12px center;padding:10px 12px;padding-inline-end:32px;font-size:14px;width:138px;cursor:pointer}
 [dir=rtl] .size-sel{background-position:left 12px center;padding-inline-end:12px;padding-inline-start:32px}
-
-/* شاشة التأكيد */
 .confirm{display:none;padding:54px 30px;text-align:center;position:relative}
 .confirm.show{display:block}
 .eyebrow-c{font-family:var(--caps);font-size:11px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:var(--blue)}
@@ -123,8 +112,6 @@ input[type=tel]{direction:ltr;text-align:start}
 .confirm .note{display:block;font-size:13px;margin:20px auto 0;padding:12px 18px;border:1px dashed var(--ink30);max-width:46ch}
 .btn-ghost{margin-top:24px;border:1px solid var(--ink);padding:12px 26px;font-family:var(--caps);font-size:11.5px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;transition:.15s}
 .btn-ghost:hover{background:var(--ink);color:var(--paper)}
-
-/* الإيصال */
 .slip{position:sticky;top:90px;background:var(--slip);border:1px solid var(--ink);z-index:1}
 .slip::before{content:"";position:absolute;inset:5px;border:1px solid var(--ink30);pointer-events:none}
 .slip-head{display:flex;align-items:center;gap:12px;padding:14px 20px;border-bottom:1px solid var(--ink)}
@@ -141,16 +128,12 @@ input[type=tel]{direction:ltr;text-align:start}
 .slip-total .v{font-family:var(--disp);font-weight:700;font-size:29px;color:var(--blue);white-space:nowrap}
 .btn-main{display:block;width:100%;background:var(--blue);color:#F9F7EF;border:1px solid var(--blue-deep);padding:15px 10px;font-family:var(--caps);font-size:12px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;transition:.15s;margin-top:16px}
 .btn-main:hover:not(:disabled){background:var(--blue-deep)}
-.btn-main:disabled{opacity:.55;cursor:wait}
+.btn-main:disabled{opacity:.55;cursor:not-allowed}
 .cutline{margin:18px 0 4px;border-top:1px dashed var(--ink30)}
 .talon{font-family:var(--caps);font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink40)}
-
-/* الفوتر */
 .foot{border-top:1px solid var(--ink);padding:18px 0;margin-top:26px}
 .foot-in{display:flex;justify-content:center;gap:22px;flex-wrap:wrap;font-family:var(--caps);font-size:10.5px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--ink55)}
 .foot a{color:var(--ink);text-decoration:underline dotted;text-underline-offset:3px}
-
-/* الأدمن */
 .admin-main{padding:46px 0 90px}
 .gate{position:relative;max-width:440px;margin:8vh auto 0;background:var(--sheet);border:1px solid var(--ink);padding:40px 34px;text-align:center}
 .gate::before{content:"";position:absolute;inset:5px;border:1px solid var(--ink30);pointer-events:none}
@@ -199,7 +182,6 @@ table.tbl{width:100%;border-collapse:collapse;font-size:13.5px;min-width:1040px}
 .tbl .td-name{white-space:nowrap}
 .tbl .demo{display:inline-block;font-family:var(--caps);font-size:8.5px;letter-spacing:.1em;color:#8A6A1B;border:1px solid #8A6A1B;padding:1px 5px;margin-inline-start:7px;text-transform:uppercase}
 .empty{padding:64px 20px;text-align:center;font-family:var(--disp);font-style:italic;font-size:16px;color:var(--ink40)}
-/* زرار ✓ وزرار التعديل ✏️ جنب الاسم */
 .tick{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border:1px solid var(--ink);background:var(--slip);color:transparent;vertical-align:middle;margin-inline-end:7px;padding:0;transition:.15s}
 .tick svg{width:13px;height:13px}
 .tick:hover{border-color:var(--blue)}
@@ -207,7 +189,6 @@ table.tbl{width:100%;border-collapse:collapse;font-size:13.5px;min-width:1040px}
 .edit{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border:1px solid var(--ink);background:var(--slip);color:var(--ink);vertical-align:middle;margin-inline-end:7px;padding:0;transition:.15s}
 .edit svg{width:12px;height:12px}
 .edit:hover{border-color:var(--blue);color:var(--blue);background:var(--blue-ghost)}
-/* صفوف الأسعار */
 .price-row{display:flex;align-items:center;gap:16px;padding:18px 2px;max-width:640px}
 .price-row .pl{font-family:var(--disp);font-weight:600;font-size:20px}
 .price-row .lead{flex:1;border-bottom:1px dotted var(--ink30);position:relative;top:6px;min-width:30px}
@@ -216,7 +197,6 @@ table.tbl{width:100%;border-collapse:collapse;font-size:13.5px;min-width:1040px}
 .price-in input{width:130px;border:0;background:none;font-family:var(--disp);font-weight:600;font-size:25px;text-align:end;padding:2px 0;direction:ltr;color:var(--blue)}
 .price-in input:focus{outline:none}
 .price-in span{font-family:var(--caps);font-size:10px;letter-spacing:.12em;color:var(--ink55)}
-/* جداول المخزون/الدليل */
 .guide-block{margin:32px 0 0}
 .guide-block h4{font-family:var(--disp);font-weight:600;font-size:20px;margin-bottom:10px}
 .guide-wrap{overflow:auto;border:1px solid var(--ink);background:var(--slip)}
@@ -240,8 +220,6 @@ table.tbl{width:100%;border-collapse:collapse;font-size:13.5px;min-width:1040px}
 .set-block h4{font-family:var(--disp);font-weight:600;font-size:19px;margin-bottom:10px}
 .db-line{display:flex;gap:10px;align-items:flex-start;font-family:var(--disp);font-style:italic;font-size:15.5px;color:var(--ink70)}
 .db-line svg{width:16px;height:16px;flex:none;margin-top:3px}
-
-/* النوافذ والتنبيهات */
 .overlay{position:fixed;inset:0;background:rgba(33,31,26,.5);display:none;place-items:center;z-index:300;padding:20px}
 .overlay.show{display:grid}
 .modal{background:var(--sheet);border:1px solid var(--ink);max-width:620px;width:100%;max-height:84vh;overflow:auto;animation:pop .22s cubic-bezier(.2,1.2,.4,1)}
@@ -263,7 +241,6 @@ table.tbl{width:100%;border-collapse:collapse;font-size:13.5px;min-width:1040px}
 .wa{font-family:var(--caps);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--blue);text-decoration:underline dotted;text-underline-offset:3px;margin-inline-start:8px;white-space:nowrap}
 .d-items{margin:18px 0 4px}
 .d-line{display:flex;justify-content:space-between;gap:14px;padding:9px 2px;border-bottom:1px dashed var(--ink30);font-size:14.5px}
-/* نافذة تعديل الطلب */
 .ed-fields{display:grid;grid-template-columns:1fr 1fr;gap:14px 18px;margin-bottom:18px}
 .ed-fields .full{grid-column:1/-1}
 .ed-item{display:grid;grid-template-columns:minmax(0,1fr) 72px 138px;gap:12px;align-items:center;padding:11px 0;border-bottom:1px dashed var(--ink30)}
@@ -271,6 +248,10 @@ table.tbl{width:100%;border-collapse:collapse;font-size:13.5px;min-width:1040px}
 .ed-item .size-sel{width:100%}
 .ed-qty{width:100%;border:1px solid var(--ink);background:var(--slip);padding:9px 6px;font-size:16px;font-weight:600;text-align:center}
 .ed-qty:focus{outline:2px dashed var(--blue);outline-offset:-2px}
+.dup-note{border:1px solid #8A6A1B;background:#F5EFDC;padding:10px 14px;margin-bottom:16px}
+.dup-note b{color:#8A6A1B;display:block;font-family:var(--caps);font-size:10px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;margin-bottom:5px}
+.dup-ser{font-family:var(--disp);font-weight:700;font-size:15px;color:var(--blue);text-decoration:underline dotted;text-underline-offset:3px;margin-inline-end:10px;padding:0}
+.dup-ser:hover{color:var(--red)}
 #toasts{position:fixed;bottom:22px;inset-inline:0;display:flex;flex-direction:column;align-items:center;gap:10px;z-index:400;pointer-events:none}
 .toast{display:flex;gap:11px;align-items:center;background:var(--ink);color:var(--paper);padding:13px 20px;font-size:14px;max-width:min(520px,92vw);border-inline-start:3px solid var(--blue);animation:tIn .25s}
 .toast.bad{border-inline-start-color:var(--red)}
@@ -280,15 +261,11 @@ table.tbl{width:100%;border-collapse:collapse;font-size:13.5px;min-width:1040px}
 @keyframes tOut{to{transform:translateY(10px);opacity:0}}
 @keyframes shake{0%,100%{transform:translate(0)}25%{transform:translate(3px,1px)}55%{transform:translate(-3px,-1px)}80%{transform:translate(2px,0)}}
 .shake{animation:shake .3s}
-
-/* العربية */
 html[lang=ar] body{font-family:'Amiri','Jost',serif;font-size:17px;line-height:1.9}
 html[lang=ar] h1.display,html[lang=ar] .prod-name h3,html[lang=ar] .confirm .serial{font-family:'Amiri',serif;font-weight:700}
 html[lang=ar] .display .script{font-family:'Amiri',serif;font-style:italic;font-size:1em}
 html[lang=ar] .hero-sub,html[lang=ar] .gate-sub,html[lang=ar] .pane-head p,html[lang=ar] .empty,
 html[lang=ar] .slip-empty,html[lang=ar] .db-line,html[lang=ar] .confirm .body{font-style:normal}
-
-/* الموبايل — أزرار كبيرة وواضحة */
 @media(max-width:1000px){.order-grid{grid-template-columns:1fr;gap:30px}.slip{position:static}}
 @media(max-width:720px){
   .items-head{display:none}
@@ -305,8 +282,6 @@ html[lang=ar] .slip-empty,html[lang=ar] .db-line,html[lang=ar] .confirm .body{fo
   .field .hint{font-size:12px}
 }
 @media(max-width:620px){.fields{grid-template-columns:1fr}.brand-l1{display:none}.ed-fields{grid-template-columns:1fr}.ed-item{grid-template-columns:1fr 64px 112px;gap:8px}.ed-item .ed-nm{grid-column:1/-1}}
-
-/* الطباعة: قائمة الطلبات فقط */
 @media print{
   body{background:#fff}
   body.print-orders .topbar,body.print-orders .foot,body.print-orders .admin-head,
@@ -324,7 +299,6 @@ html[lang=ar] .slip-empty,html[lang=ar] .db-line,html[lang=ar] .confirm .body{fo
 <div id="toasts"></div>
 <div class="overlay" id="overlay" role="dialog" aria-modal="true"><div class="modal" id="modal"></div></div>
 
-<!-- ═══ الهيدر ═══ -->
 <header class="topbar">
   <div class="wrap topbar-in">
     <a class="brand" href="#" data-nav="home">
@@ -347,7 +321,6 @@ html[lang=ar] .slip-empty,html[lang=ar] .db-line,html[lang=ar] .confirm .body{fo
   </div>
 </header>
 
-<!-- ═══ صفحة الطلب ═══ -->
 <main id="view-order">
   <section class="hero">
     <div class="wrap hero-in">
@@ -431,7 +404,6 @@ html[lang=ar] .slip-empty,html[lang=ar] .db-line,html[lang=ar] .confirm .body{fo
   </section>
 </main>
 
-<!-- ═══ صفحة الأدمن ═══ -->
 <main id="view-admin" hidden>
   <div class="wrap admin-main">
     <div class="gate" id="gate">
@@ -479,16 +451,12 @@ html[lang=ar] .slip-empty,html[lang=ar] .db-line,html[lang=ar] .confirm .body{fo
 </footer>
 
 <script>
-/* ═══════════════════════════════════════════
-   1) الإعدادات — أهم سطور الملف
-   ═══════════════════════════════════════════ */
-const LOGO_URL = 'https://z-cdn-media.chatglm.cn/files/829fb9ea-c0ed-4d31-8cbd-626020dc06f3.jpeg?auth_key=1888605144-7b550c1c428c49dd90231d6d8cb7a55f-0-1e6a79734fc1c9b05f3201b619b41a93'; /* ← رابط صورة اللوجو (بدّله لو انتهى) */
+const LOGO_URL = 'https://z-cdn-media.chatglm.cn/files/829fb9ea-c0ed-4d31-8cbd-626020dc06f3.jpeg?auth_key=1888605144-7b550c1c428c49dd90231d6d8cb7a55f-0-1e6a79734fc1c9b05f3201b619b41a93';
 const SUPABASE_URL = 'https://cbrenpbufwqzoktgfpho.supabase.co';
 const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNicmVucGJ1Zndxem9rdGdmcGhvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODg1NjEzMTQsImV4cCI6MjEwNDEzNzMxNH0.h4BA7p6OZhRjW4WusfX31E3U7rqt8inDX0-BSq42yWs';
-const DEFAULT_ADMIN_PASSWORD = 'mej2025'; /* ← كلمة مرور الأدمن */
-const LEGIONS = ['Étincelles','FN','JTC','TA']; /* الفيالق */
+const DEFAULT_ADMIN_PASSWORD = 'mej2025';
+const LEGIONS = ['Étincelles','FN','JTC','TA'];
 
-/* ═══ 2) النصوص بثلاث لغات ═══ */
 const I18N = {
 fr:{dir:'ltr',docTitle:'MEJ — Collège Saint Marc',
  brandTag:'Collège Saint Marc',brandName:'MEJ',navAdmin:'Administration',footLine:'MEJ · Collège Saint Marc',
@@ -496,8 +464,7 @@ fr:{dir:'ltr',docTitle:'MEJ — Collège Saint Marc',
  heroEyebrow:'MEJ · Collège Saint Marc',hero1:'La tenue',hero2:'officielle',hero3:'de la MEJ.',
  heroSub:'Remplissez le bulletin : nom, âge, légion, téléphone et nom du chef, puis choisissez vos articles et vos tailles. Les prix, le stock et le guide des tailles sont gérés par l\u2019administration.',
  sheetTitle:'Bulletin de commande',sheetNo:'N°',
- fName:'Nom complet',
- fAge:'Âge',
+ fName:'Nom complet',fAge:'Âge',
  fLegion:'Légion',chooseLegion:'— Choisir —',errLegion:'Veuillez choisir la légion.',
  fChef:'Chef responsable',
  fPhone:'Téléphone',fPhonePh:'0100 123 4567',fPhoneHint:'Numéro égyptien à 11 chiffres — ex. : 0100 123 4567',
@@ -524,15 +491,14 @@ fr:{dir:'ltr',docTitle:'MEJ — Collège Saint Marc',
  pwOk:'Mot de passe mis à jour.',pwBad:'Mot de passe actuel incorrect.',pwShort:'Au moins 6 caractères requis.',
  dataTitle:'Données',dbOk:'Connecté à Supabase — commandes et réglages partagés entre tous les appareils.',dbLocal:'Mode local — collez votre clé « anon » dans le fichier pour synchroniser.',
  clearData:'Effacer toutes les commandes',clearConfirm:'Supprimer définitivement toutes les commandes enregistrées ?',clearYes:'Supprimer',clearNo:'Annuler',cleared:'Commandes supprimées.',demoTag:'démo',
- confirmTitle:'Confirmation',close:'Fermer',wa:'WhatsApp'},
+ confirmTitle:'Confirmation',close:'Fermer',wa:'WhatsApp',dupNote:'Ce numéro possède {n} autre(s) commande(s) :'},
 en:{dir:'ltr',docTitle:'MEJ — Collège Saint Marc',
  brandTag:'Collège Saint Marc',brandName:'MEJ',navAdmin:'Administration',footLine:'MEJ · Collège Saint Marc',
  statusOk:'Database connected',statusLocal:'Local mode',syncFail:'Database connection failed',
  heroEyebrow:'MEJ · Collège Saint Marc',hero1:'The official',hero2:'uniform',hero3:'of MEJ.',
  heroSub:'Fill in the slip: name, age, legion, phone and leader\u2019s name, then pick your items and sizes. Prices, stock and the size guide are managed by the administrators.',
  sheetTitle:'Order slip',sheetNo:'No.',
- fName:'Full name',
- fAge:'Age',
+ fName:'Full name',fAge:'Age',
  fLegion:'Legion',chooseLegion:'— Choose —',errLegion:'Please choose the legion.',
  fChef:'Leader in charge',
  fPhone:'Phone',fPhonePh:'0100 123 4567',fPhoneHint:'Egyptian number, 11 digits — e.g. 0100 123 4567',
@@ -559,15 +525,14 @@ en:{dir:'ltr',docTitle:'MEJ — Collège Saint Marc',
  pwOk:'Password updated.',pwBad:'Current password is incorrect.',pwShort:'At least 6 characters required.',
  dataTitle:'Data',dbOk:'Connected to Supabase — orders and settings shared across devices.',dbLocal:'Local mode — paste your anon key in the file to sync.',
  clearData:'Delete all orders',clearConfirm:'Permanently delete every recorded order?',clearYes:'Delete',clearNo:'Cancel',cleared:'Orders deleted.',demoTag:'demo',
- confirmTitle:'Confirmation',close:'Close',wa:'WhatsApp'},
+ confirmTitle:'Confirmation',close:'Close',wa:'WhatsApp',dupNote:'This number has {n} other order(s):'},
 ar:{dir:'rtl',docTitle:'MEJ — كلية القديس مرقس',
  brandTag:'كلية القديس مرقس',brandName:'MEJ',navAdmin:'لوحة الإدارة',footLine:'MEJ · كلية القديس مرقس',
  statusOk:'متصل بقاعدة البيانات',statusLocal:'وضع محلي',syncFail:'فشل الاتصال بقاعدة البيانات',
  heroEyebrow:'MEJ · كلية القديس مرقس',hero1:'الزيّ',hero2:'الرسميّ',hero3:'لِفرقة MEJ.',
  heroSub:'املأ الاستمارة: الاسم، السن، الفيلق، رقم الهاتف، واسم القائد، ثم اختر الأصناف والمقاسات. الأسعار والمخزون ودليل المقاسات يديرها المشرفون.',
  sheetTitle:'استمارة الطلب',sheetNo:'رقم',
- fName:'الاسم الكامل',
- fAge:'السن',
+ fName:'الاسم الكامل',fAge:'السن',
  fLegion:'الفيلق',chooseLegion:'— اختر —',errLegion:'من فضلك اختر الفيلق.',
  fChef:'القائد المسؤول',
  fPhone:'رقم الهاتف',fPhonePh:'0100 123 4567',fPhoneHint:'رقم مصري من 11 خانة — مثال: 0100 123 4567',
@@ -594,14 +559,12 @@ ar:{dir:'rtl',docTitle:'MEJ — كلية القديس مرقس',
  pwOk:'تم تحديث كلمة المرور.',pwBad:'كلمة المرور الحالية غير صحيحة.',pwShort:'كلمة المرور 6 أحرف على الأقل.',
  dataTitle:'البيانات',dbOk:'متصل بـ Supabase — الطلبات والإعدادات مشتركة بين الأجهزة.',dbLocal:'وضع محلي — الصق مفتاح anon داخل الملف للمزامنة.',
  clearData:'حذف جميع الطلبات',clearConfirm:'حذف كل الطلبات نهائيًا؟',clearYes:'حذف',clearNo:'إلغاء',cleared:'تم حذف الطلبات.',demoTag:'تجريبي',
- confirmTitle:'تأكيد',close:'إغلاق',wa:'واتساب'}
+ confirmTitle:'تأكيد',close:'إغلاق',wa:'واتساب',dupNote:'هذا الرقم لديه {n} طلبات أخرى:'}
 };
 
-/* ═══ 3) أدوات ═══ */
 const $=id=>document.getElementById(id);
 const v=(id,val)=>{const el=$(id);if(val===undefined)return el?el.value:'';if(el)el.value=val;};
 const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-/* تنسيق المبالغ — بيدعم أرباع الجنيه (149.25) */
 function fmtMoney(n){
  var r=Math.round((+n||0)*100)/100;
  return (Math.abs(r-Math.round(r))<0.005)?String(Math.round(r)):r.toFixed(2);}
@@ -632,7 +595,6 @@ function toast(msg,type){const el=document.createElement('div');el.className='to
  setTimeout(()=>{el.classList.add('out');setTimeout(()=>el.remove(),260);},3800);}
 window.addEventListener('error',function(e){if(e&&e.message){try{toast('⚠ '+e.message,'bad');}catch(err){}}});
 
-/* ═══ 3ب) حماية من أخطاء البيانات ═══ */
 function cartOf(pid){
  var c=state.cart[pid];
  if(!c||typeof c!=='object')c=state.cart[pid]={qty:0,size:''};
@@ -691,14 +653,12 @@ function sanitizeOrders(list){
   if(!o.name)o.name='';
   return o;});}
 
-/* ═══ 4) المنتجات ═══ */
 const FIGS={
  tshirt:'<svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><path d="M22 8 L10 16 L14 26 L20 23 L20 56 L44 56 L44 23 L50 26 L54 16 L42 8 C40 12 36 14 32 14 C28 14 24 12 22 8 Z"/><path d="M22 8 C24 13 28 16 32 16 C36 16 40 13 42 8"/></svg>',
  longsleeve:'<svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><path d="M22 8 L10 16 L7 38 L15 40 L20 24 L20 56 L44 56 L44 24 L49 40 L57 38 L54 16 L42 8 C40 12 36 14 32 14 C28 14 24 12 22 8 Z"/><path d="M22 8 C24 13 28 16 32 16 C36 16 40 13 42 8"/></svg>'};
 const PRODUCTS=[{id:'tshirt',fig:'tshirt'},{id:'longsleeve',fig:'longsleeve'}];
 function sizesFor(){return (state.config.guides.tshirt||[]).map(function(r){return String(r[0]||'').trim();}).filter(Boolean);}
 
-/* ═══ 5) الحالة ═══ */
 const LS_LANG='mej-lang',LS_CONFIG='mej-config-v1',LS_ORDERS='mej-orders-v3';
 const LS_ORDERS_ANY=['mej-orders-v3','mej-orders-v2','mej-orders-v1'];
 const DEFAULTS={
@@ -714,10 +674,9 @@ const state={
  cart:{},
  dbConnected:false,dbError:'',adminAuthed:false,adminTab:'orders',
  sortKey:'created_at',sortDir:-1,search:'',guideDraft:null,
- fltLegion:'',fltStatus:'',lastMut:0};
+ fltLegion:'',fltStatus:'',lastMut:0,orderLocked:false};
 try{state.lang=localStorage.getItem(LS_LANG)||'fr';}catch(e){}
 
-/* ═══ 6) التشغيل ═══ */
 document.addEventListener('DOMContentLoaded',function(){init();});
 async function init(){
  mountLogos();
@@ -752,7 +711,6 @@ function loadLocalOrders(){
  if(!raw)return [];
  try{return sanitizeOrders(JSON.parse(raw));}catch(e){return [];}}
 
-/* ═══ 7) Supabase + المزامنة ═══ */
 async function tryConnectSupabase(){
  if(!SUPABASE_ANON_KEY||typeof supabase==='undefined')return;
  try{
@@ -804,7 +762,6 @@ function seedDemo(){
   {id:'demo4',serial:'MEJ-'+y+'-004',created_at:d(1),name:'Nour Amir',age:'11',legion:'TA',chef:'Tarek Fawzy',phone:'01555678901',items:{longsleeve:{qty:1,size:'10'}},total:P.longsleeve,delivered:false,demo:true}]);
  try{localStorage.setItem(LS_ORDERS,JSON.stringify(state.orders));}catch(e){}}
 
-/* ═══ 8) اللغات ═══ */
 function bindLang(){
  document.querySelectorAll('.lang-sw button').forEach(function(b){
   b.addEventListener('click',function(){setLang(b.getAttribute('data-lang'));});});}
@@ -820,7 +777,6 @@ function applyI18n(){
  renderProducts();renderSlip();updateSerialPreview();updateDbPill();
  if(state.adminAuthed)renderAdminTab();}
 
-/* ═══ 9) المخزون حسب المقاس ═══ */
 function stockInitTotal(pid){
  var st=state.config.stock[pid];
  if(!st||typeof st!=='object')return 0;
@@ -850,7 +806,6 @@ function stockInfo(pid){
  if(total<=0)return{html:esc(t('outOfStock')),out:true};
  return{html:html,out:false};}
 
-/* ═══ 10) نموذج الطلب ═══ */
 function renderProducts(){
  ensureConfig();ensureCart();
  var html='';
@@ -901,6 +856,7 @@ function syncCartSizes(){
   var c=cartOf(p.id),cur=c.size;
   c.size=(rows.indexOf(cur)>=0)?cur:(rows[0]||'');});}
 async function submitOrder(){
+ if(state.orderLocked)return; /* مفيش طلب جديد غير بعد «طلب جديد» */
  var btn=$('btn-submit');btn.disabled=true;
  try{
   var name=v('in-name').trim(),age=v('in-age').trim(),legion=v('in-legion'),chef=v('in-chef').trim(),phone=v('in-phone').replace(/[\s\-]/g,'');
@@ -947,6 +903,9 @@ function showConfirm(o){
  $('confirm-serial').textContent=o.serial;
  $('sheet-body').style.display='none';
  $('confirm').classList.add('show');
+ /* زرار الإرسال يختفي — مفيش طلب جديد غير بزرار «طلب جديد» */
+ $('btn-submit').style.display='none';
+ state.orderLocked=true;
  toast(t('okTitle'));
  var y=$('sheet').getBoundingClientRect().top+window.scrollY-76;
  window.scrollTo({top:Math.max(0,y),behavior:'smooth'});}
@@ -956,9 +915,10 @@ function resetOrder(){
  v('in-legion','');
  $('confirm').classList.remove('show');
  $('sheet-body').style.display='';
+ $('btn-submit').style.display=''; /* رجّعنا زرار الإرسار مع الطلب الجديد */
+ state.orderLocked=false;
  renderProducts();renderSlip();updateSerialPreview();}
 
-/* ═══ 11) التنقل وصفحة الأدمن ═══ */
 function bindNav(){
  document.querySelectorAll('[data-nav]').forEach(function(el){
   el.addEventListener('click',function(e){e.preventDefault();setHash(el.getAttribute('data-nav')==='admin'?'#admin':'');});});
@@ -988,7 +948,6 @@ function renderAdminTab(){
  else if(state.adminTab==='guides')renderGuidesPane();
  else renderSettingsPane();}
 
-/* ═══ 12) تبويب الطلبات ═══ */
 async function toggleDelivered(id){
  var o=null;state.orders.forEach(function(x){if(x.id===id)o=x;});
  if(!o)return;
@@ -1136,7 +1095,6 @@ function openDetail(o){
   closeModal();
   openConfirm(t('deleteConfirmOrder'),function(){deleteOrder(o.id);});});}
 
-/* ═══ 12ب) تعديل الطلب ═══ */
 function openEdit(o){
  ensureConfig();
  var sizes=sizesFor();
@@ -1158,8 +1116,21 @@ function openEdit(o){
    +'</div>';});
  var total=0;
  PRODUCTS.forEach(function(p){var it=getIt(o,p.id);if(it)total+=((+state.config.prices[p.id])||0)*(+it.qty||0);});
+ var myDigits=String(o.phone||'').replace(/\D/g,'');
+ var dups=[];
+ if(myDigits){
+  state.orders.forEach(function(x){
+   if(x.id===o.id)return;
+   var d=String(x.phone||'').replace(/\D/g,'');
+   if(d&&d===myDigits)dups.push(x);});}
+ var dupHtml='';
+ if(dups.length){
+  dupHtml='<div class="dup-note"><b>⚠ '+esc(t('dupNote').replace('{n}',dups.length))+'</b>'
+   +dups.map(function(d2){return '<button type="button" class="dup-ser" data-dup="'+esc(d2.id)+'">'+esc(d2.serial||'—')+'</button>';}).join('')
+   +'</div>';}
  openModal('<div class="modal-head"><h3 class="num">'+esc(o.serial)+' · '+esc(t('editTitle'))+'</h3><button data-close aria-label="'+esc(t('close'))+'">'+ICO.x+'</button></div>'
   +'<div class="modal-body">'
+  +dupHtml
   +'<div class="ed-fields">'
   +'<div class="field full"><label for="e-name">'+esc(t('fName'))+'</label><input id="e-name" type="text" value="'+esc(o.name||'')+'"></div>'
   +'<div class="field"><label for="e-age">'+esc(t('fAge'))+'</label><input id="e-age" type="number" min="1" max="120" inputmode="numeric" value="'+esc(o.age||'')+'"></div>'
@@ -1173,7 +1144,12 @@ function openEdit(o){
   +'<button class="btn-outline" id="e-save">'+ICO.save+esc(t('saveEdit'))+'</button></div>'
   +'</div>');
  var sv=$('e-save');
- if(sv)sv.addEventListener('click',function(){saveEdit(o);});}
+ if(sv)sv.addEventListener('click',function(){saveEdit(o);});
+ document.querySelectorAll('#modal [data-dup]').forEach(function(btn){
+  btn.addEventListener('click',function(){
+   var target=null;
+   state.orders.forEach(function(x){if(x.id===btn.getAttribute('data-dup'))target=x;});
+   if(target)openEdit(target);});});}
 function recalcEditTotal(){
  var total=0;
  PRODUCTS.forEach(function(p){
@@ -1210,7 +1186,6 @@ async function saveEdit(o){
  renderProducts();renderSlip();
  toast(t('editSaved'));}
 
-/* ═══ 13) تبويب الأسعار ═══ */
 function renderPricesPane(){
  $('tab-pane').innerHTML=
   '<div class="pane-head"><h3>'+esc(t('pricesTitle'))+'</h3><p>'+esc(t('pricesHint'))+'</p></div>'
@@ -1224,7 +1199,6 @@ function savePrices(){
   state.config.prices[inp.getAttribute('data-price')]=isNaN(n)?0:Math.max(0,Math.round(n*100)/100);});
  persistConfig();renderProducts();renderSlip();toast(t('saved'));}
 
-/* ═══ 14) تبويب المخزون حسب المقاس ═══ */
 function renderStockPane(){
  var html='<div class="pane-head"><h3>'+esc(t('stockTitle'))+'</h3><p>'+esc(t('stockHint'))+'</p></div>';
  PRODUCTS.forEach(function(p){
@@ -1257,7 +1231,6 @@ function saveStock(){
   state.config.stock[p.id]=obj;});
  persistConfig();renderProducts();renderSlip();toast(t('saved'));}
 
-/* ═══ 15) تبويب دليل المقاسات ═══ */
 function renderGuidesPane(){
  state.guideDraft={tshirt:JSON.parse(JSON.stringify(state.config.guides.tshirt||[]))};
  $('tab-pane').innerHTML=
@@ -1289,7 +1262,6 @@ function saveGuides(){
  state.config.stock.longsleeve=nst;
  persistConfig();syncCartSizes();renderProducts();renderSlip();toast(t('saved'));}
 
-/* ═══ 16) تبويب الإعدادات ═══ */
 function renderSettingsPane(){
  $('tab-pane').innerHTML=
   '<div class="pane-head"><h3>'+esc(t('settingsTitle'))+'</h3></div>'
@@ -1317,7 +1289,6 @@ async function doClear(){
  try{localStorage.setItem(LS_ORDERS,'[]');}catch(e){}
  updateSerialPreview();renderOrdersPane();renderProducts();toast(t('cleared'));}
 
-/* ═══ 17) النوافذ ═══ */
 function openModal(html){$('modal').innerHTML=html;$('overlay').classList.add('show');}
 function closeModal(){$('overlay').classList.remove('show');}
 function openGuideModal(){
@@ -1333,7 +1304,6 @@ function openConfirm(msg,onYes){
   +'<button class="btn-danger" id="cf-yes">'+ICO.trash+esc(t('clearYes'))+'</button></div></div>');
  $('cf-yes').addEventListener('click',function(){closeModal();onYes();});}
 
-/* ═══ 18) ربط الأحداث ═══ */
 function bindForm(){
  $('items').addEventListener('click',function(e){
   var step=e.target.closest('.step button');
@@ -1360,7 +1330,6 @@ function bindAdmin(){
  $('pw-in').addEventListener('keydown',function(e){if(e.key==='Enter')tryLogin();});
  $('btn-logout').addEventListener('click',function(){state.adminAuthed=false;showGate();});
  $('tabs').addEventListener('click',function(e){var b=e.target.closest('button');if(b){state.adminTab=b.getAttribute('data-tab');renderAdminTab();}});
- /* الإجمالي بيتحسب لايف أثناء التعديل */
  $('modal').addEventListener('input',function(e){
   if(e.target.classList.contains('ed-qty')||e.target.classList.contains('ed-size'))recalcEditTotal();});
  var pane=$('tab-pane');
